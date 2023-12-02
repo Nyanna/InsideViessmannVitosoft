@@ -13,9 +13,9 @@ import serial
 logging.getLogger().setLevel('DEBUG')
 logging.info('Starting Viessmann2mqtt')
 
-MQTT_USER = "clientabc123"
-MQTT_PASSWORD = "publicabc123"
-MQTT_SERVER = '3.73.129.80'
+MQTT_USER = "client"
+MQTT_PASSWORD = "public"
+MQTT_SERVER = '7.73.129.85'
 MQTT_TOPIC = 'Viessmann/'  # should end with /
 hostName = ""
 serverPort = 443
